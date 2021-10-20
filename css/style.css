@@ -25,7 +25,6 @@ nav ul li a:visited{
 
 .pricing{
     display: flex;
-    min-height: 475px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -36,11 +35,6 @@ nav ul li a:visited{
     display: flex;
     flex-basis: 450px;
     flex-direction: column;
-    margin: 12px;
-    background: #fff;
-    border-radius: 7px;
-    padding: 0 0 25px 0;
-  
 }
 
 .card header {
@@ -49,13 +43,11 @@ nav ul li a:visited{
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 7px 7px 0 0;
-
 }
 
 .gallery{
     display: flex;
     flex-direction: row;
-    min-height: 600px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -119,12 +111,6 @@ nav ul li a:visited{
         display: flex;
         flex-basis: 250px;
     }
-
-    .card_big{
-        -webkit-transform: scaleY(1.1);
-        transform: scaleY(1.1);
-        z-index: -99;
-  }
 }
 
 @media (prefers-reduced-motion) { 
@@ -136,18 +122,21 @@ nav ul li a:visited{
 @media print {
     body {
         background-image: none;
-        background-color: #f1f1f1; 
+        background-color: #f1f1f1;
+        font-family: serif;
     }
 
-    nav, .nav_links {
+    nav, 
+    .nav_links {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .pricing {
         display: flex;
         flex-direction: row;
+        align-items: flex-end;
         flex-wrap: nowrap;
     }
 
