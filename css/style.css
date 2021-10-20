@@ -92,7 +92,9 @@ nav ul li a:visited{
         flex-direction: row;
         justify-content: space-between;
         align-content: flex-start;
-        offset: 2px;
+        flex-wrap:wrap;
+        min-height: 75px;
+        width: 100%;
     }
 
     body > header {
@@ -111,7 +113,6 @@ nav ul li a:visited{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-
     }
 
     .card {
