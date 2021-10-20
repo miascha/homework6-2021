@@ -93,8 +93,8 @@ nav ul li a:visited{
         justify-content: space-between;
         align-content: flex-start;
         flex-wrap:wrap;
-        min-height: 75px;
-        width: 100%;
+        left: 0;
+        right: 0;
     }
 
     body > header {
