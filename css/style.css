@@ -126,11 +126,11 @@ nav ul li a:visited{
         font-family: serif;
     }
 
-    nav, 
     .nav_links {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        column-gap: 175px;
     }
 
     .pricing {
@@ -146,8 +146,9 @@ nav ul li a:visited{
         border: 2px solid #45ADDD;
         flex-wrap: nowrap;
     }
-
-    .gallery, #gallery {
+    
+    .gallery, 
+    #gallery {
         display: none;
 
     }
