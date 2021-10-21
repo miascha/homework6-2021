@@ -19,22 +19,24 @@ header {
     align-items: center;
 }
 
-nav ul li a:visited{
+nav ul li a:visited {
+    color:blue;
+}
+
+a.skip:visited {
     color:blue;
 }
 
 .pricing{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
-    display: flex;
     flex-basis: 450px;
-    flex-direction: column;
 }
 
 .card header {
@@ -108,7 +110,6 @@ nav ul li a:visited{
     }
 
     .card {
-        display: flex;
         flex-basis: 250px;
     }
 }
